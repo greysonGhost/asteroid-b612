@@ -64,11 +64,9 @@ body {
 
 .sidebar {
     background-color: #707585d8;
-    /*min-height: 450px;*/
     width: 148px;
-    /*float: left;*/
     padding: 3px;
-    padding-top: 12px;
+    padding-top: 10px;
     text-align: center;
 }
 
@@ -83,10 +81,7 @@ body {
 
 .article {
     background-color: #b6ccd7d8 ;
-    /*min-height: 450px;*/
-    /*margin-bottom: 5px;*/
     width: 1120px;
-    /*float: left;*/
     padding: 10px;
     font-family: 'GriffosFont';
     font-weight: normal;
@@ -100,17 +95,12 @@ body {
 
 .article-sidebar {
     padding: 5px;
-    /*text-align: center;*/
     margin-left: 50px;
 }
 
 .footer {
-    /*background-color: #707585d8;
-    height: 70px;*/
     clear: both;
     text-align: center;
-    /*margin-bottom: 5px;
-    padding: 3px;*/
 }
 
 td, th {
