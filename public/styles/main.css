@@ -1,0 +1,154 @@
+@font-face { font-family: Mynerve; src: url("../assets/fonts/Mynerve/Mynerve-Regular.ttf"); } 
+@font-face { font-family: GriffosFont; src: url("../assets/fonts/GriffosFont/GriffosFont.ttf"); }
+@font-face { font-family: GriffosSCaps; src: url("../assets/fonts/GriffosFont/GriffosSCapsFont.ttf");}
+
+html, body {
+    font-size: 13pt;
+}
+
+body {
+    background: #ffffff url("../assets/star-bg.jpg");
+}
+
+#header-img {
+    padding: 10px;
+}
+
+.wrapper {
+    margin: auto;
+    width: 1280px;
+}
+
+.header-image {
+    background-color: #b6ccd7d8;
+    height: 170px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 3px;
+    float: left;
+}
+
+.header {
+    background-color: #b6ccd7d8;
+    height: 170px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 3px;
+    float: left;
+    width: 1098px;
+    text-align: center;
+    font-family: 'Mynerve';
+    font-weight: normal;
+    font-style: normal;
+}
+
+#title {
+    font-size: 45pt;
+    padding-top: 35px;
+}
+
+.search {
+    background-color: #707585d8;
+    height: 70px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 3px;
+    clear: both;
+}
+
+.main-wrapper {
+    min-height: 450px;
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.sidebar {
+    background-color: #707585d8;
+    /*min-height: 450px;*/
+    width: 148px;
+    /*float: left;*/
+    padding: 3px;
+    text-align: center;
+}
+
+.article-title {
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+.article-wrapper {
+    display: flex;
+}
+
+.article {
+    background-color: #b6ccd7d8 ;
+    /*min-height: 450px;*/
+    /*margin-bottom: 5px;*/
+    width: 1120px;
+    /*float: left;*/
+    padding: 10px;
+    font-family: 'GriffosFont';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.article-img {
+    height: 200px;
+    width: 200px;
+}
+
+.article-sidebar {
+    padding: 5px;
+    /*text-align: center;*/
+    margin-left: 50px;
+}
+
+.footer {
+    /*background-color: #707585d8;
+    height: 70px;*/
+    clear: both;
+    text-align: center;
+    /*margin-bottom: 5px;
+    padding: 3px;*/
+}
+
+td, th {
+    vertical-align:top;
+}
+    
+.article-heading {
+    font-size: 17pt;
+    font-weight: bold;
+}
+
+table, td, th {
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 3px;
+}
+
+.episodes-2010 tr:nth-child(n+2):nth-child(-n+12) {
+    background: #2aa2965c;
+}
+
+.episodes-2010 tr:nth-child(n+13):nth-child(-n+25) {
+    background: #F2F19E5c;
+}
+
+.episodes-2010 tr:nth-child(n+26):nth-child(-n+37) {
+    background: #D286D55c;
+}
+
+.episodes-1978 tr:nth-child(n+2):nth-child(-n+36) {
+    background: #b1b5cb;
+}
+
+.episodes-1978 tr:nth-child(n+37):nth-child(-n+40) {
+    background: #ff73005c
+}
+
+.jump-top {
+    right: 50px;
+    bottom: 30px;
+    position: fixed;
+}

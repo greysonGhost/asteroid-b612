@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Mynerve';
+    src: url('Mynerve-Regular.eot');
+    src: local('Mynerve Regular'), local('Mynerve-Regular'),
+        url('Mynerve-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Mynerve-Regular.woff2') format('woff2'),
+        url('Mynerve-Regular.woff') format('woff'),
+        url('Mynerve-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
