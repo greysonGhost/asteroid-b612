@@ -1,4 +1,4 @@
-mame: Deploy to neocities
+name: Deploy to neocities
 
 # only run on changes to main
 on:
